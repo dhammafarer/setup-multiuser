@@ -1,0 +1,6 @@
+[core]
+	editor = /usr/bin/vim
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main
