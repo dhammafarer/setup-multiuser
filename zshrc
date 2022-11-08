@@ -9,8 +9,8 @@ stty -ixon
 #  [[ ! $TERM =~ screen ]] && [ -z $TMUX ] && exec tmux -2
 #fi
 
-#ZSH_THEME="avit"
-ZSH_THEME="sonicradish"
+ZSH_THEME="avit"
+#ZSH_THEME="sonicradish"
 
 autoload -Uz compinit
 compinit
