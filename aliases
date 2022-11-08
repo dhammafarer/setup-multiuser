@@ -1,0 +1,5 @@
+#!/bin/sh
+
+alias l="ls"
+alias ll="ls -l"
+alias lll="ls -la"

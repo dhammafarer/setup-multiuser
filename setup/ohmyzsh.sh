@@ -21,8 +21,8 @@ echo "COPYING DOTFILES"
 rm -rf ~/.zshrc > /dev/null 2>&1
 rm -rf ~/.aliases > /dev/null 2>&1
 
-cp ../zshrc ~/.zshrc
-cp ../aliases ~/.aliases
+cp ~/setup-multiuser/zshrc ~/.zshrc
+cp ~/setup-multiuser/aliases ~/.aliases
 
 # ------------------------------------------------------------------------
 
