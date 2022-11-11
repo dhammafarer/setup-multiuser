@@ -8,9 +8,17 @@ echo "INSTALLING PLUGINS"
 
 [[ -d "$pd" ]] && rm -rf $pd && mkdir -p $pd
 
-# nerd tree
-git clone https://github.com/preservim/nerdtree.git $pd/nerdtree
-vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
+cd $pd
+
+# plugins
+git clone https://github.com/preservim/nerdtree.git && vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
+git clone https://github.com/tpope/vim-sensible.git
+git clone https://github.com/tpope/vim-surround.git
+git clone https://github.com/easymotion/vim-easymotion.git
+git clone https://github.com/mg979/vim-visual-multi
+git clone https://github.com/bronson/vim-trailing-whitespace
+git clone https://github.com/jiangmiao/auto-pairs
+git clone https://github.com/junegunn/fzf.vim
 
 echo
 echo "COPYING DOTFILES"
