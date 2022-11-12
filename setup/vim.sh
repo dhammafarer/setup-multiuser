@@ -6,7 +6,8 @@ pd=~/.vim/pack/vendor/start
 echo
 echo "INSTALLING PLUGINS"
 
-[[ -d "$pd" ]] && rm -rf $pd && mkdir -p $pd
+[[ -d "$pd" ]] && rm -rf $pd
+mkdir -p $pd
 
 cd $pd
 
