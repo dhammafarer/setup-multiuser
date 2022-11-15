@@ -118,3 +118,7 @@ nmap s <Plug>(easymotion-overwin-f)
 let g:EasyMotion_smartcase = 1
 map h <Plug>(easymotion-j)
 map l <Plug>(easymotion-k)
+
+"-------colors---------"
+highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE
+"-----end-colors-------"
