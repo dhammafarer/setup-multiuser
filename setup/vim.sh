@@ -19,6 +19,7 @@ git clone https://github.com/easymotion/vim-easymotion.git
 git clone https://github.com/mg979/vim-visual-multi
 git clone https://github.com/bronson/vim-trailing-whitespace
 git clone https://github.com/jiangmiao/auto-pairs
+git clone https://github.com/ctrlpvim/ctrlp.vim
 
 echo
 echo "COPYING DOTFILES"

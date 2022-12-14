@@ -122,3 +122,8 @@ map l <Plug>(easymotion-k)
 "-------colors---------"
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE
 "-----end-colors-------"
+
+"-----------------CtrlP---------------"
+map <D-p> :CtrlP<cr>
+nmap <C-d> :CtrlPBufTag<cr>
+nmap <C-e> :CtrlPMRUFiles<cr>
